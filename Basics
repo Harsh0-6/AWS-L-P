@@ -1,0 +1,31 @@
+## Cloud Computing Basics.
+
+# What is the Client-Server Model?
+    - The Client-Server model is about a client that interacts and makes requests to a computer server.
+    - The server does tasks for the client and returns information.
+    - ![alt text](image.png) (cli-server arch img).
+
+A client is the way that the person interact with the server.
+    - There are 3 different kind of deployment models.
+    1. Cloud-based.
+    2. On-premises.
+    3. Hybrid.
+
+# The models are different ways of accessing computing services: on internet, locally, in a combination.
+
+1. Cloud-based Deploymet - 
+    * Everything runs in the cloud.
+    * the model allows you to build new applications or move existing ones to the cloud.
+    * the level of service has different requirements on your managment, architecturing and infrastructure.
+    * example - a company might create an application consisting of virtual machines, databases, networking componenets entirely based in the cloud.
+
+2. On-premise Deploymet - 
+    * Deploy resources using virtulization and resource managment tools.
+    * On-prem Dep also known as Private Cloud Deployment.
+    example - you use a application that run on technology that is fully kept in your on-premises data center.
+    * though this model is like legacy IT infrastructure, its applicaiton managment and virtulization technologies make it more effective.
+
+3. Hybrid deployment - 
+    * In a hybrid deployement, you connect cloud resources to an on-premises infrastructure.
+    This approach is relevant in many situations.
+    exmaple - you are working with sensitive data or are under specific government regulations.
