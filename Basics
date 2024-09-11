@@ -29,3 +29,69 @@ A client is the way that the person interact with the server.
     * In a hybrid deployement, you connect cloud resources to an on-premises infrastructure.
     This approach is relevant in many situations.
     exmaple - you are working with sensitive data or are under specific government regulations.
+
+# Why Cloud Computing?
+    - benefits: 1. Cost savings: Pay as you go.
+                2. Security.
+                3. Scalablity.
+                4. Flexiblity.
+
+## AWS Cloud EC2.
+    - EC2 is a virtual in the AWS cloud.
+    - AWS EC2 is short for AWS Elastic Cloud Compute.
+    - It makes scaling of capacity up and down easy.
+
+    - get started with EC2 in three steps.
+    1. Launch: ~ Start with selecting a template with basic configurations.
+               ~ The config includes the operating system, application server, or applications.
+               ~ decide the instance type and hardware configuration of your instance.
+               ~ specify the security settings to control the traffic in and out of your instance.
+
+    2. Connect: ~ There are many ways to connect to instance.
+                1. Programs and applications have multiple connection method to exchange data.
+                2. Users can connect and access the computer dekstop by loggin in.
+
+    3. Use: ~ Once connected, use it.
+            ~ Execute commands to install software, add storage, copy, and organize files, and much more.
+
+# AWS EC2 Instances types:
+    - There are different instances types:
+    - when selecting an instance type, consider the needs:
+        needs can be a requirement for compute, memory, or storage.
+
+    # General Purpose Instance.
+        GPI balances computing, memory, and networking resources.
+        It fits many purposes such as:
+            ~ Application servers.
+            ~ Gaming servers.
+            ~ Backend servers for companies.
+            ~ Small and medium database.
+            * GPI are best when there is balance between the resources.
+
+    # Compute Optimized Resources.
+        Best when 'high compute' is required.
+        This type is also good for application servers, gaming server, and web apps.
+        The main difference is that 'this type is ideal for high-performance and compute-intensive tools.
+        
+    # Memory Optimized Resources.
+        this type can deliver large dataset workloads fast.
+        ~ Memory is a temporary storage area.
+        ~ It loads from storage, holds the data, and process it before the computer can run it.
+        ~ The processing allows for a preloading process and gives the CPU direct access to the computer program.
+        ~ MPI are best when huge amounts of data need to be preloaded before running the app.
+
+    # Accelerated Computing Instances.
+        this type use hardware accelators.
+        ~ the accelators boost the data processing.
+        ~ the ACI is best for graphics apps and streaming.
+        
+    # Storage Optimized Instances.
+        this is best when you have large datasets on local storage.
+        ~ Large file system.
+        ~ Data Warehouses.
+        ~ Online transaction systems.
+        SOI is designed to deliver many inputs as fast as possible.
+
+    # AWS EC2 Pricing.
+        With AWS EC2 you pay for the compute time.
+        You only pay for the compute time that you see.
